@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Self test
         id: selftest
-        uses: Akshay090/text_summarization_action@master
+        uses: Akshay090/github-action-text-summarization@master
         with:
           path: "tests/testFile.txt"
       - name: Check text summary output

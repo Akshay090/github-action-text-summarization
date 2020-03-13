@@ -1,7 +1,7 @@
 # GitHub Action for text summarization
 
-[![Actions Status](https://github.com/Akshay090/text_summarization_action/workflows/Lint/badge.svg)](https://github.com/Akshay090/text_summarization_action/actions)
-[![Actions Status](https://github.com/Akshay090/text_summarization_action/workflows/Integration%20Test/badge.svg)](https://github.com/Akshay090/text_summarization_action/actions)
+[![Actions Status](https://github.com/Akshay090/github-action-text-summarization/workflows/Lint/badge.svg)](https://github.com/Akshay090/github-action-text-summarization/actions)
+[![Actions Status](https://github.com/Akshay090/github-action-text-summarization/workflows/Integration%20Test/badge.svg)](https://github.com/Akshay090/github-action-text-summarization/actions)
 
 ## Usage
 
@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Run action
-      uses: Akshay090/text_summarization_action@master
+      uses: Akshay090/github-action-text-summarization@master
       with:
         path: path/to/textFile.txt
 ```
@@ -50,7 +50,7 @@ jobs:
     steps:
     - name: Run action
       id: summary_action
-      uses: Akshay090/text_summarization_action@master
+      uses: Akshay090/github-action-text-summarization@master
       with:
         path: path/to/textFile.txt
 
