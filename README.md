@@ -1,5 +1,8 @@
 # GitHub Action for text summarization
 
+[![Actions Status](https://github.com/Akshay090/text_summarization_action/workflows/Lint/badge.svg)](https://github.com/Akshay090/text_summarization_action/actions)
+[![Actions Status](https://github.com/Akshay090/text_summarization_action/workflows/Integration%20Test/badge.svg)](https://github.com/Akshay090/text_summarization_action/actions)
+
 ## Usage
 
 Example usage of action in your workflow
