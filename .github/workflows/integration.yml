@@ -10,6 +10,6 @@ jobs:
         uses: Akshay090/text_summarization_action@master
         with:
           path: "tests/testFile.txt"
-      - name: Check outputs and modified files
+      - name: Check text summary output
         run: |
           echo "Text summary: ${{ steps.selftest.outputs.summary }}"
