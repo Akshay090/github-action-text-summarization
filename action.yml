@@ -1,0 +1,13 @@
+name: "Gensim Summarizer action"
+description: "Summarizes text data in a file"
+author: "Akshay Ashok"
+inputs:
+  path:
+    description: "Path to the text file to be Summarized"
+    required: true
+outputs:
+  summary:
+    description: "The summary of text data in file by gensim"
+runs:
+  using: "docker"
+  image: "Dockerfile"

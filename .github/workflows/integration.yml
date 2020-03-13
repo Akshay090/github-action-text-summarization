@@ -1,0 +1,15 @@
+name: Integration Test
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Self test
+        id: selftest
+        uses: Akshay090/text_summarization_action@master
+        with:
+          path: "tests/testFile.txt"
+      - name: Check outputs and modified files
+        run: |
+          echo "Text summary: ${{ steps.selftest.outputs.summary }}"
