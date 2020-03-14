@@ -1,4 +1,4 @@
-name: "Gensim Summarizer action"
+name: "Text Summarizer github action"
 description: "Summarizes text data in a file"
 author: "Akshay Ashok"
 inputs:
@@ -11,3 +11,6 @@ outputs:
 runs:
   using: "docker"
   image: "Dockerfile"
+branding:
+  icon: "align-left"
+  color: "gray-dark"
