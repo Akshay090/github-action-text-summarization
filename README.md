@@ -1,4 +1,4 @@
-# GitHub Action for text summarization
+# ✨ GitHub Action for text summarization
 
 [![Actions Status](https://github.com/Akshay090/github-action-text-summarization/workflows/Lint/badge.svg)](https://github.com/Akshay090/github-action-text-summarization/actions)
 [![Actions Status](https://github.com/Akshay090/github-action-text-summarization/workflows/Integration%20Test/badge.svg)](https://github.com/Akshay090/github-action-text-summarization/actions)
