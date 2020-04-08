@@ -1,5 +1,5 @@
 name: "Text Summarizer github action"
-description: "Summarizes text data in a file"
+description: "Summarizes text data in a file."
 author: "Akshay Ashok"
 inputs:
   path:
